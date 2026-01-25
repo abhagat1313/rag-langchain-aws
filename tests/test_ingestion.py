@@ -13,3 +13,4 @@ if __name__ == "__main__":
     docs = load_documents("data/raw")
     print(f"\nTotal documents loaded: {len(docs)}\n")
     pretty_print_docs(docs)
+    
