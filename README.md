@@ -18,5 +18,5 @@ using LangChain, FAISS, Redis, and multiple chunking and reranking strategies.
 - OpenAI embeddings (initially)
 
 ## Why This Project
-This project is designed to demonstrate senior-level understanding of RAG systems,
+This project is designed to demonstrate  RAG systems,
 including tradeoffs in chunking, retrieval, reranking, and cost optimization.
