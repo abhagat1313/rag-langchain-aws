@@ -1,4 +1,4 @@
-from embeddings.hf_embedder import HuggingFaceEmbedder
+from embeddings.HuggingFaceEmbedder import HuggingFaceEmbedder
 from langchain_core.documents import Document
 
 
