@@ -2,9 +2,10 @@ import faiss
 import numpy as np
 from typing import List
 from langchain_core.documents import Document
+from vectorstore.vector_store_interface import VectorStoreInterface
 
 
-class FaissVectorStore:
+class FaissVectorStore(VectorStoreInterface):
     """
     Simple FAISS-based vector store.
     """
@@ -23,3 +24,7 @@ class FaissVectorStore:
         distances, indices = self.index.search(query_vector, top_k)
 
         return [self.documents[i] for i in indices[0] if i != -1]
+    
+    def get_embedding(self, doc: Document) -> List[float]:
+        idx = self.documents.index(doc)
+        return self.index.reconstruct(idx).tolist()
