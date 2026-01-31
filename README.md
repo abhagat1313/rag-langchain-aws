@@ -142,7 +142,7 @@ Each folder contains example scripts or README for detailed usage.
   Messy documents: Always clean headers, footers, and repeated content
   Cache vs Vector Store: Cache = temporary fast storage, vector store = persistent embeddings
 
-###Future Work
+### Future Work
   Explore advanced chunking strategies
   Optimize embedding storage, cache, and retrieval
   Implement agentic AI workflows integrated with LangChain
