@@ -1,7 +1,6 @@
 # rag-langchain-aws 🚀
 
 ![Python](https://img.shields.io/badge/python-3.12-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-Experimental-orange)
 
 This repository provides an **overview and implementation of LangChain workflows** in the project **`rag-langchain-aws`**. It includes utilities for document ingestion, chunking, embeddings, retrieval, reranking, caching, and orchestration — designed for building **LLM-powered applications** with AWS and generative AI.
